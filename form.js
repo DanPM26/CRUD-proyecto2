@@ -67,7 +67,7 @@ function remplazo(){
           arr.splice(boxIndex,1,boxValue);
           renderElement()
           localStorage.removeItem('general-list', arr[boxIndex]);
-          localStorage.setItem('general-list', arr)
+          localStorage.setItem('general-list', arr);
           //aquí ya solo hay que remover el item anterior pero no me dio tiempo sorry
           remove()
       }      
@@ -77,14 +77,12 @@ function remplazo(){
 
 
 function remove(element){
-    const index = arr.indexOf(element);
-    if(index > -1){
-        arr.splice(index,1);
-        localStorage.removeItem('general-list',arr);
-    }
-
-    
-    renderElement()
+  const index = arr.indexOf(element);
+  if(index > -1){
+      arr.splice(index,1);
+      localStorage.removeItem('general-list',arr[index]);
+  }
+  renderElement()
 }
 
 
