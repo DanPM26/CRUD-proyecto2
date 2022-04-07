@@ -10,11 +10,30 @@ header{
     padding-left: 15px;
 }
 
+.phrase {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 20px;
+    border: 1px solid transparent; 
+    padding-top: 100px; 
+    padding-bottom: 30px; 
+    padding-left: 50px;
+    padding-right: 50px
+}
 
+.box {
+    border-radius: 20px;
+    background-color: rgb(171, 182, 189);
+    color: aliceblue;
+    text-align: center;
+    font-family: monospace; 
+    font-size: 25px;
+    padding: 20px;
+}
 
 
 .dropbtn {
-    background-color: #547980;
+    background-color: #889b9f;
     color:aliceblue;
     padding: 16px;
     font-size: 16px;
@@ -65,14 +84,14 @@ padding-top: 25px;
 
 
 .music {
-    background-color: #81bbb8;
+    background-color: #91a5a4;
     display: flex;
     justify-content: space-around;
     padding: 20px;
 }
 
 .recomendation{
-    background-color: #81bbb8;
+    background-color: #8ba7a6;
     text-align: center;
     border: 1px solid transparent; 
 }
@@ -127,5 +146,8 @@ table {
         display:block;
         
     }
+    .phrase {
+        display: block;
+     }
 }
 
