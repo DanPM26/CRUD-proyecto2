@@ -77,7 +77,7 @@ padding-top: 25px;
 }
 
 .div-uno{
-    
+    background-color: #889b9f;
     text-shadow: -5px 5px #dc9838;
     font-family: monospace;
 }
@@ -101,7 +101,7 @@ iframe {
 main {
     display: block;
     text-align: center;
-    background-color: #8eaa94;
+    background-color: #afbeb3;
     border: 1px solid transparent;
     padding-bottom: 20px; 
 }
