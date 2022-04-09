@@ -77,11 +77,10 @@ function remplazo(){
 
 
 function remove(element){
-  const index = arr.indexOf(element);
-  if(index > -1){
-      arr.splice(index,1);
-      localStorage.removeItem('general-list',arr[index]);
-  }
+  console.log(element)
+   arr.splice(element,1)
+   localStorage.setItem('general-list', arr)
+    renderElement()
   renderElement()
 }
 
