@@ -80,7 +80,6 @@ function remove(element){
   console.log(element)
    arr.splice(element,1)
    localStorage.setItem('general-list', arr)
-    renderElement()
   renderElement()
 }
 
